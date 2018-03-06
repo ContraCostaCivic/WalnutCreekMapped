@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		75B150C1204B2BF2005FC010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B150C0204B2BF2005FC010 /* AppDelegate.swift */; };
-		75B150C3204B2BF2005FC010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B150C2204B2BF2005FC010 /* ViewController.swift */; };
+		75B150C3204B2BF2005FC010 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B150C2204B2BF2005FC010 /* MessageVC.swift */; };
 		75B150C6204B2BF2005FC010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B150C4204B2BF2005FC010 /* Main.storyboard */; };
 		75B150C8204B2BF2005FC010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B150C7204B2BF2005FC010 /* Assets.xcassets */; };
 		75B150CB204B2BF2005FC010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B150C9204B2BF2005FC010 /* LaunchScreen.storyboard */; };
 		75B150D6204B2BF2005FC010 /* walnutcreekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B150D5204B2BF2005FC010 /* walnutcreekTests.swift */; };
+		75B150E1204B2DCF005FC010 /* FirPickUpRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B150E0204B2DCF005FC010 /* FirPickUpRead.swift */; };
+		75B150E3204B2E2A005FC010 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B150E2204B2E2A005FC010 /* Message.swift */; };
+		75B150E5204B2FD6005FC010 /* C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B150E4204B2FD6005FC010 /* C.swift */; };
+		75E78BE7204B661700134391 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75E78BE6204B661700134391 /* GoogleService-Info.plist */; };
+		75EFCA79204B42EE00AA69D5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EFCA78204B42EE00AA69D5 /* MapVC.swift */; };
+		75EFCA7D204B574500AA69D5 /* download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EFCA7C204B574500AA69D5 /* download.swift */; };
+		B3176E2B41B8B452E088F472 /* Pods_walnutcreek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07FD19357D72A2B86FE0C69 /* Pods_walnutcreek.framework */; };
+		DE1E93636D162EE54967E6ED /* Pods_walnutcreekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997F8AC3F606CDC4B0F72CC /* Pods_walnutcreekTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		395BCAF9D46DFD8DC8242B93 /* Pods-walnutcreek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walnutcreek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walnutcreek/Pods-walnutcreek.debug.xcconfig"; sourceTree = "<group>"; };
+		55FC7EBA58B196BEAF37CBA5 /* Pods-walnutcreekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walnutcreekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walnutcreekTests/Pods-walnutcreekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75B150BD204B2BF2005FC010 /* walnutcreek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walnutcreek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B150C0204B2BF2005FC010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75B150C2204B2BF2005FC010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75B150C2204B2BF2005FC010 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
 		75B150C5204B2BF2005FC010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75B150C7204B2BF2005FC010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B150CA204B2BF2005FC010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,16 @@
 		75B150D1204B2BF2005FC010 /* walnutcreekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walnutcreekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B150D5204B2BF2005FC010 /* walnutcreekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walnutcreekTests.swift; sourceTree = "<group>"; };
 		75B150D7204B2BF2005FC010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B150E0204B2DCF005FC010 /* FirPickUpRead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirPickUpRead.swift; sourceTree = "<group>"; };
+		75B150E2204B2E2A005FC010 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		75B150E4204B2FD6005FC010 /* C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C.swift; sourceTree = "<group>"; };
+		75E78BE6204B661700134391 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75EFCA78204B42EE00AA69D5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		75EFCA7C204B574500AA69D5 /* download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = download.swift; sourceTree = "<group>"; };
+		BD0F6B3DF6EA4257ADFE415D /* Pods-walnutcreek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walnutcreek.release.xcconfig"; path = "Pods/Target Support Files/Pods-walnutcreek/Pods-walnutcreek.release.xcconfig"; sourceTree = "<group>"; };
+		C997F8AC3F606CDC4B0F72CC /* Pods_walnutcreekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walnutcreekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07FD19357D72A2B86FE0C69 /* Pods_walnutcreek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walnutcreek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B866585B208DBB7EF85C3C /* Pods-walnutcreekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walnutcreekTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-walnutcreekTests/Pods-walnutcreekTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3176E2B41B8B452E088F472 /* Pods_walnutcreek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +71,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1E93636D162EE54967E6ED /* Pods_walnutcreekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F8FEB127473B0C2FF4A61D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395BCAF9D46DFD8DC8242B93 /* Pods-walnutcreek.debug.xcconfig */,
+				BD0F6B3DF6EA4257ADFE415D /* Pods-walnutcreek.release.xcconfig */,
+				55FC7EBA58B196BEAF37CBA5 /* Pods-walnutcreekTests.debug.xcconfig */,
+				F1B866585B208DBB7EF85C3C /* Pods-walnutcreekTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		75B150B4204B2BF2005FC010 = {
 			isa = PBXGroup;
 			children = (
 				75B150BF204B2BF2005FC010 /* walnutcreek */,
 				75B150D4204B2BF2005FC010 /* walnutcreekTests */,
 				75B150BE204B2BF2005FC010 /* Products */,
+				6F8FEB127473B0C2FF4A61D0 /* Pods */,
+				FBD163D64199B81F38B259F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +112,18 @@
 		75B150BF204B2BF2005FC010 /* walnutcreek */ = {
 			isa = PBXGroup;
 			children = (
+				75E78BE6204B661700134391 /* GoogleService-Info.plist */,
 				75B150C0204B2BF2005FC010 /* AppDelegate.swift */,
-				75B150C2204B2BF2005FC010 /* ViewController.swift */,
+				75B150C2204B2BF2005FC010 /* MessageVC.swift */,
 				75B150C4204B2BF2005FC010 /* Main.storyboard */,
 				75B150C7204B2BF2005FC010 /* Assets.xcassets */,
 				75B150C9204B2BF2005FC010 /* LaunchScreen.storyboard */,
 				75B150CC204B2BF2005FC010 /* Info.plist */,
+				75B150E0204B2DCF005FC010 /* FirPickUpRead.swift */,
+				75B150E2204B2E2A005FC010 /* Message.swift */,
+				75B150E4204B2FD6005FC010 /* C.swift */,
+				75EFCA78204B42EE00AA69D5 /* MapVC.swift */,
+				75EFCA7C204B574500AA69D5 /* download.swift */,
 			);
 			path = walnutcreek;
 			sourceTree = "<group>";
@@ -96,6 +137,15 @@
 			path = walnutcreekTests;
 			sourceTree = "<group>";
 		};
+		FBD163D64199B81F38B259F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D07FD19357D72A2B86FE0C69 /* Pods_walnutcreek.framework */,
+				C997F8AC3F606CDC4B0F72CC /* Pods_walnutcreekTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B150DA204B2BF2005FC010 /* Build configuration list for PBXNativeTarget "walnutcreek" */;
 			buildPhases = (
+				627BF0565DA3C67DDEC3C999 /* [CP] Check Pods Manifest.lock */,
 				75B150B9204B2BF2005FC010 /* Sources */,
 				75B150BA204B2BF2005FC010 /* Frameworks */,
 				75B150BB204B2BF2005FC010 /* Resources */,
+				2758E1BA20358F966006D433 /* [CP] Embed Pods Frameworks */,
+				7D16536AA6F1451560528D24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B150DD204B2BF2005FC010 /* Build configuration list for PBXNativeTarget "walnutcreekTests" */;
 			buildPhases = (
+				808D0CDE23230C337D28077A /* [CP] Check Pods Manifest.lock */,
 				75B150CD204B2BF2005FC010 /* Sources */,
 				75B150CE204B2BF2005FC010 /* Frameworks */,
 				75B150CF204B2BF2005FC010 /* Resources */,
+				D52BB3E188EA4F7ADDDD036D /* [CP] Embed Pods Frameworks */,
+				C15D1021F6B1D543E9915196 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B150CB204B2BF2005FC010 /* LaunchScreen.storyboard in Resources */,
+				75E78BE7204B661700134391 /* GoogleService-Info.plist in Resources */,
 				75B150C8204B2BF2005FC010 /* Assets.xcassets in Resources */,
 				75B150C6204B2BF2005FC010 /* Main.storyboard in Resources */,
 			);
@@ -194,13 +251,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2758E1BA20358F966006D433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-walnutcreek/Pods-walnutcreek-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-walnutcreek/Pods-walnutcreek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		627BF0565DA3C67DDEC3C999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walnutcreek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D16536AA6F1451560528D24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-walnutcreek/Pods-walnutcreek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808D0CDE23230C337D28077A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walnutcreekTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15D1021F6B1D543E9915196 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-walnutcreekTests/Pods-walnutcreekTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52BB3E188EA4F7ADDDD036D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-walnutcreekTests/Pods-walnutcreekTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75B150B9204B2BF2005FC010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B150C3204B2BF2005FC010 /* ViewController.swift in Sources */,
+				75B150C3204B2BF2005FC010 /* MessageVC.swift in Sources */,
+				75EFCA79204B42EE00AA69D5 /* MapVC.swift in Sources */,
+				75B150E3204B2E2A005FC010 /* Message.swift in Sources */,
+				75B150E1204B2DCF005FC010 /* FirPickUpRead.swift in Sources */,
+				75B150E5204B2FD6005FC010 /* C.swift in Sources */,
 				75B150C1204B2BF2005FC010 /* AppDelegate.swift in Sources */,
+				75EFCA7D204B574500AA69D5 /* download.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,11 +523,13 @@
 		};
 		75B150DB204B2BF2005FC010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395BCAF9D46DFD8DC8242B93 /* Pods-walnutcreek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96V48GCP44;
 				INFOPLIST_FILE = walnutcreek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LewisBlack.walnutcreek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,11 +540,13 @@
 		};
 		75B150DC204B2BF2005FC010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0F6B3DF6EA4257ADFE415D /* Pods-walnutcreek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96V48GCP44;
 				INFOPLIST_FILE = walnutcreek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LewisBlack.walnutcreek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +557,7 @@
 		};
 		75B150DE204B2BF2005FC010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FC7EBA58B196BEAF37CBA5 /* Pods-walnutcreekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +575,7 @@
 		};
 		75B150DF204B2BF2005FC010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B866585B208DBB7EF85C3C /* Pods-walnutcreekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,0 +1,6 @@
+framework module Pods_walnutcreekTests {
+  umbrella header "Pods-walnutcreekTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
